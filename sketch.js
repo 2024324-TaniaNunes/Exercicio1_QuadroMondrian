@@ -1,6 +1,10 @@
 function setup() {
-  createCanvas(800, 784);
-  noLoop(); 
+  let canvas = createCanvas(800, 784);
+  canvas.position(
+    (windowWidth - width) / 2,
+    (windowHeight - height) / 2
+  );
+  noLoop();
 }
 
 function draw() {

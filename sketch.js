@@ -56,14 +56,14 @@ function draw() {
   // fill = código RGB
   fill(15, 15, 15);
 
-  // Linha Horizontal Superior (MUITO GROSSA — 20px)
-  rect(0, 300, 800, 20);
+  // Linha Horizontal Superior (MUITO GROSSA — 16px)
+  rect(0, 300, 800, 16);
 
   // Linha Horizontal Inferior (GROSSA — 16px)
   rect(0, 498, 800, 16);
 
-  // Linha Vertical Principal (FINA — 9px)
-  rect(360, 0, 9, 784);
+  // Linha Vertical Principal (FINA — 11px)
+  rect(360, 0, 11, 784);
 
   // Linha Vertical Esquerda / Amarelo (FINA — 9px)
   rect(72, 506, 9, 278);
@@ -73,4 +73,19 @@ function draw() {
 
   // Linha Horizontal Rodapé sob o Azul (FINA — 10px)
   rect(360, 744, 262, 10);
+
+  // TEXTURA
+
+fill(255, 255, 255, 10);
+rect(0, 0, width, height);
+
+fill(230, 228, 220, 20);
+rect(50, 100, 300, 250);
+
+fill(245, 245, 240, 15);
+rect(400, 50, 250, 300);
+
+fill(220, 220, 220, 8);
+rect(200, 500, 350, 150);
+
 }

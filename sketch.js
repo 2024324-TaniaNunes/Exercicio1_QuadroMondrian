@@ -43,44 +43,55 @@ rect(390, 530, 170, 110);
 fill(10, 20, 80, 10);
 rect(364, 650, 252, 99);
 
-  // --- 2. VARIÂNCIA TONAL DOS PLANOS NEUTROS (Brancos) ---
-  // Topo Direito
-  fill(245, 244, 239);
-  rect(360, 0, 440, 310);
+// --- 2. VARIÂNCIA TONAL DOS PLANOS NEUTROS (Brancos) ---
 
-  // ligeiro escurecimento no canto superior esquerdo
-fill(205, 200, 195, 25);
-rect(360, 0, 140, 100);
+// Topo Direito
+fill(244, 243, 239);
+rect(360, 0, 440, 310);
 
-// ligeira irregularidade
-fill(215, 210, 202, 18);
-rect(380, 20, 220, 120);
+// luz no canto superior esquerdo
+fill(255, 255, 252, 25);
+rect(360, 0, 220, 160);
 
-  // Centro Esquerdo
-  fill(205, 200, 192, 18);
-  rect(0, 300, 364, 206);
+// brilho secundário
+fill(250, 249, 245, 15);
+rect(380, 20, 260, 180);
 
-  fill(220, 216, 210, 8);
-  rect(0, 300, 150, 60);
+// Centro Esquerdo
+fill(242, 241, 237);
+rect(0, 300, 364, 206);
 
-  // Centro Direito
-  fill(240, 239, 235);
-  rect(360, 300, 440, 206);
+// luz subtil
+fill(255, 255, 250, 20);
+rect(0, 300, 220, 100);
 
-  // Inferior Centro-Esquerdo
-  fill(232, 231, 226);
-  rect(72, 500, 292, 284);
+// Centro Direito
+fill(243, 242, 238);
+rect(360, 300, 440, 206);
 
-  // Inferior Direito
-  fill(235, 234, 230);
-  rect(609, 500, 191, 284);
+// luz discreta
+fill(255, 255, 250, 12);
+rect(360, 300, 180, 90);
 
-  fill(220, 216, 210, 10);
-  rect(609, 500, 80, 100);
+// Inferior Centro-Esquerdo
+fill(240, 239, 235);
+rect(72, 500, 292, 284);
 
-  // Faixa de rodapé sob o Azul
-  fill(230, 228, 225);
-  rect(360, 744, 252, 40);
+// brilho
+fill(252, 251, 248, 18);
+rect(72, 500, 120, 120);
+
+// Inferior Direito
+fill(243, 242, 238);
+rect(609, 500, 191, 284);
+
+// brilho
+fill(255, 255, 252, 20);
+rect(609, 500, 120, 140);
+
+// Faixa de rodapé sob o Azul
+fill(238, 237, 233);
+rect(360, 744, 252, 40);
 
   // --- 3. LINHAS PRETAS (Estrutura com Espessuras Diferenciadas) ---
   // fill = código RGB
@@ -105,12 +116,12 @@ rect(380, 20, 220, 120);
   rect(360, 744, 262, 10);
 
   // --- 1. TEMPERATURA DAS CORES ---
-  // // véu quente geral
-fill(235, 230, 222, 8);
+// temperatura muito suave
+fill(240, 236, 230, 4);
 rect(0, 0, width, height);
 
-// ligeira luminosidade
-fill(255, 255, 255, 6);
+// luz geral
+fill(255, 255, 255, 3);
 rect(0, 0, width, height);
 
 }
